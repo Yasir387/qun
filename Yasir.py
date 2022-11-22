@@ -12,6 +12,6 @@ bit = platform.architecture()[0]
  
 if bit == '64bit':
  
-    from qun import ud
+    from qun.c import ud
  
     Main()
